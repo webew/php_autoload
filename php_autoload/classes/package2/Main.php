@@ -1,6 +1,6 @@
 <?php
 
-namespace classes\package2;
+namespace App\package2;
 
 class Main
 {

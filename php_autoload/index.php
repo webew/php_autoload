@@ -4,8 +4,8 @@ namespace App;
 
 require_once "autoload.php";
 
-use classes\package1\Main as Main1;
-use classes\package2\Main as Main2;
+use App\package1\Main as Main1;
+use App\package2\Main as Main2;
 
 $main1 = new Main1("ma propriété");
 echo $main1->methode();
